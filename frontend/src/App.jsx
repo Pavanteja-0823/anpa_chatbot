@@ -177,6 +177,9 @@ export default function App() {
 
   // Filter chat sessions
   const filteredSessions = searchQuery
+    ? chatSessions.filter((s) =>
+        s.title.toLowerCase().includes(searchQuery.toLowerCase())
+      )
     : chatSessions;
   
   // Handle Share
