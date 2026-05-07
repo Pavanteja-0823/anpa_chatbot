@@ -1,0 +1,4 @@
+DBMS normalization:
+1NF: Remove repeating groups
+2NF: Remove partial dependency
+3NF: Remove transitive dependency
